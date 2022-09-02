@@ -1,0 +1,41 @@
+.contact-item {
+  display: flex;
+  padding: 20px 10px;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.contact-item:hover {
+  cursor: pointer;
+  background-color: rgba(27, 107, 255, 0.349);
+}
+
+.contact-item:not(:last-child) {
+  border-bottom: 2px solid rgb(163, 163, 163);
+}
+
+.contact-item-content {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact-item-content h2 {
+  font-family: "Oxygen";
+  font-weight: 400;
+  font-size: 16pt;
+}
+
+.last-message {
+  font-family: "Oxygen";
+  font-weight: 300;
+  font-size: 12pt;
+  color: #494949;
+}
+
+.last-message-date {
+  align-self: flex-end;
+  position: absolute;
+  right: 6px;
+}
